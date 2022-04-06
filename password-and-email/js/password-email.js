@@ -9,6 +9,7 @@ function check(submit){
 			document.getElementById('checktext').className = "open";
 				document.getElementById('checktext').innerHTML = 
 			"Please retype the username! You must use username with 8-30 characters!";
+			checkx = false;
 			return false;
 		}
 		else
@@ -25,6 +26,7 @@ function check(submit){
 			document.getElementById('checkagain').className = "open";
 				document.getElementById('checkagain').innerHTML = 
 			"Please retype the username! You must use username with 8-30 characters!";
+			checkx = false;
 			return false;
 		}
 		else
